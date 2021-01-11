@@ -16,6 +16,7 @@ export MANPATH="/Library/TeX/Distributions/.DefaultTeX/Contents/Man:${MANPATH}"
 #   2. MAKE TERMINAL BETTER
 #   -----------------------------
 
+alias beep="echo -ne '\007'"                # Add a console beep for script notification
 alias ll='ls -FGlAhp'                       # Preferred 'ls' implementation
 alias ld='ll | grep ^d'			    # List directories (grep)
 alias l='ls'				    # Fix my dumb typos
